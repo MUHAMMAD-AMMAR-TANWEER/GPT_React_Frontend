@@ -1,11 +1,22 @@
 import React from 'react' //write rafce and code snippit will be written
 
-import { Article, Brand, CTA } from './components';
+import { Navbar, Brand, CTA } from './components';
+import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 
 const App = () => {
     return (
         <div>
-            <h1>GPT-3</h1>
+            <div className="App">
+                <Navbar />
+                <Header />
+            </div>
+            <Brand />
+            <WhatGPT3 />
+            <Features />
+            <Possibility />
+            <CTA />
+            <Blog />
+            <Footer />
 
         </div>
     )
