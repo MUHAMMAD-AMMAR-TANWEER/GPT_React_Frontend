@@ -2,7 +2,9 @@ import React from 'react' //write rafce and code snippit will be written
 
 import { Navbar, Brand, CTA } from './components';
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
-import './App.css'
+import './App.css';
+
+
 const App = () => {
     return (
         <div>
